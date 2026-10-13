@@ -1,0 +1,20 @@
+{
+  "name": "sbps-pamb-clearance-system",
+  "version": "1.0.0",
+  "description": "Online PAMB Clearance / SAPA application system for the Sarangani Bay Protected Seascape",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --no-warnings test/smoke.js",
+    "backup": "node --no-warnings scripts/backup.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.10.1"
+  }
+}
